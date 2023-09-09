@@ -29,6 +29,9 @@ import {
 import { Provider } from 'react-redux';
 import store from './src/redux/store'
 import Application from './src/Application';
+import "react-native-devsettings";
+// OR if you are using AsyncStorage
+import "react-native-devsettings/withAsyncStorage";
 
 const App = () => {
   return (
